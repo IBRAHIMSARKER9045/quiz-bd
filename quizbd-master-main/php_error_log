@@ -1,0 +1,7 @@
+[24-Mar-2022 16:23:51 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'quizbd.user' doesn't exist in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\register.php:22
+Stack trace:
+#0 F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\register.php(22): mysqli->query('INSERT INTO `us...')
+#1 {main}
+  thrown in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\register.php on line 22
+[24-Mar-2022 16:27:59 Asia/Dhaka] PHP Warning:  Undefined variable $site in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\inc\header.php on line 12
+[24-Mar-2022 16:29:15 Asia/Dhaka] PHP Warning:  Undefined array key "password" in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\login.php on line 12

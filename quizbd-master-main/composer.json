@@ -1,0 +1,20 @@
+{
+    "name": "poly/blog",
+    "description": "a sample test project in composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "asa al-mamun",
+            "email": "asamamun.web@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "nesbot/carbon": "^2.57"
+    }
+}

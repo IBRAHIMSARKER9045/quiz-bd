@@ -1,0 +1,50 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/assets"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/categories"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/classes"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/contact"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/css"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/js"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/query"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/quiz"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/quizset"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/startbootstrap-simple-sidebar-master"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/subcategories"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/topics"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/userquiz"
+		},
+		{
+			"path": "../../quizbd-master-main-fix/admin/users"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,74 @@
+[14-Mar-2022 20:32:07 Asia/Dhaka] PHP Warning:  require(database.php): Failed to open stream: No such file or directory in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orderdetails.php on line 19
+[14-Mar-2022 20:32:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Failed opening required 'database.php' (include_path='F:\xampp\php\PEAR') in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orderdetails.php:19
+Stack trace:
+#0 {main}
+  thrown in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orderdetails.php on line 19
+[14-Mar-2022 20:39:44 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as pname from order_items inner join products on order_items.item_id = produc...' at line 1 in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orderdetails.php:28
+Stack trace:
+#0 F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orderdetails.php(28): mysqli->query('select order_it...')
+#1 {main}
+  thrown in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orderdetails.php on line 28
+[14-Mar-2022 21:08:37 Asia/Dhaka] PHP Parse error:  Unclosed '{' on line 12 in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 92
+[14-Mar-2022 21:09:02 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 56
+[14-Mar-2022 21:09:02 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 57
+[14-Mar-2022 21:09:02 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 58
+[14-Mar-2022 21:09:02 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 59
+[14-Mar-2022 21:09:02 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 60
+[14-Mar-2022 21:09:02 Asia/Dhaka] PHP Warning:  Undefined array key "customer_id" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 65
+[14-Mar-2022 21:09:02 Asia/Dhaka] PHP Warning:  Undefined array key "payment_method" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 69
+[14-Mar-2022 21:09:02 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:09:37 Asia/Dhaka] PHP Warning:  Undefined array key "customer_id" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 65
+[14-Mar-2022 21:09:37 Asia/Dhaka] PHP Warning:  Undefined array key "payment_method" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 69
+[14-Mar-2022 21:09:37 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:09:38 Asia/Dhaka] PHP Warning:  Undefined array key "customer_id" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 65
+[14-Mar-2022 21:09:38 Asia/Dhaka] PHP Warning:  Undefined array key "payment_method" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 69
+[14-Mar-2022 21:09:38 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:10:07 Asia/Dhaka] PHP Warning:  Undefined array key "payment_method" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 69
+[14-Mar-2022 21:10:07 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:10:25 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:10:31 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:11:01 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:11:04 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 35
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 38
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 41
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 44
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 47
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 35
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 38
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 41
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 44
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 47
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 35
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 38
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 41
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 44
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 47
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 35
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 38
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 41
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 44
+[14-Mar-2022 21:14:27 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\orders.php on line 47
+[14-Mar-2022 21:16:51 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:16:56 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:17:03 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:17:09 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:17:22 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:17:28 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:17:44 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[14-Mar-2022 21:19:39 Asia/Dhaka] PHP Warning:  Undefined array key "order_status" in F:\xampp\htdocs\poly-web-gen-01\class25\project\admin\editorders.php on line 75
+[24-Mar-2022 16:32:54 Asia/Dhaka] PHP Warning:  Undefined variable $site in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\partial_header.php on line 13
+[24-Mar-2022 16:35:07 Asia/Dhaka] PHP Warning:  Undefined array key "user_name" in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\partial_header.php on line 52
+[24-Mar-2022 16:35:39 Asia/Dhaka] PHP Warning:  Undefined array key "user_name" in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\partial_header.php on line 52
+[24-Mar-2022 16:38:28 Asia/Dhaka] PHP Warning:  Undefined array key "user_name" in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\partial_header.php on line 52
+[24-Mar-2022 16:38:34 Asia/Dhaka] PHP Warning:  Undefined array key "user_name" in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\partial_header.php on line 52
+[24-Mar-2022 18:35:02 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'quizbd.category' doesn't exist in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\quiz.php:54
+Stack trace:
+#0 F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\quiz.php(54): mysqli->query('select id,name,...')
+#1 {main}
+  thrown in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\quiz.php on line 54
+[24-Mar-2022 18:35:06 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'quizbd.category' doesn't exist in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\quiz.php:54
+Stack trace:
+#0 F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\quiz.php(54): mysqli->query('select id,name,...')
+#1 {main}
+  thrown in F:\xampp\htdocs\r49\PHP\projects\quizbd\quizbd-master\admin\quiz.php on line 54
