@@ -36,3 +36,6 @@ require "database.php";
             echo '<a href="quizset.php?topic=' . $row['id'] . '"><div class="item"><img src="assets/images/icons/' . $row['icon'] . '.png" title="' . $row['name'] . '" width="300" height="200"/><h4 class="text-center">' . $row['name'] . '</h4></div></a>';
           }
           echo '</div>';
+        }
+        ?>
+      </div>
