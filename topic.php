@@ -45,3 +45,6 @@ require "database.php";
 
 <!-- category bikroy end -->
 <?php require "inc/footer.php"; ?>
+</body>
+
+</html>
