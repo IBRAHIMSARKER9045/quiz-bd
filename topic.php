@@ -41,3 +41,7 @@ require "database.php";
       </div>
       </div>
   </div>
+  <!-- category bikroy -->
+
+<!-- category bikroy end -->
+<?php require "inc/footer.php"; ?>
