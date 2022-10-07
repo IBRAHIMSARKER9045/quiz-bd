@@ -39,3 +39,5 @@ require "database.php";
         }
         ?>
       </div>
+      </div>
+  </div>
