@@ -52,3 +52,44 @@ require "database.php";
                     }
                     ?>
                 </select>
+                </div>
+            <div class="form-group ">
+                <input type="hidden" id="quizid" name="quizid" value="" />
+                <label for="ques" class="form-label fw-bolder text-info">Question</label>
+                <textarea type="text" class="form-control" name="ques" id="ques"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="op1" class="form-label fw-bolder text-info">Option 1</label>
+                <input class="form-control" type="text" id="op1" name="op1">
+            </div>
+            <div class="form-group">
+                <label for="op2" class="form-label fw-bolder text-info">Option 2</label>
+                <input class="form-control" type="text" id="op2" name="op2">
+            </div>
+            <div class="form-group">
+                <label for="op3" class="form-label fw-bolder text-info">Option 3</label>
+                <input class="form-control" type="text" id="op3" name="op3">
+            </div>
+            <div class="form-group">
+                <label for="op4" class="form-label fw-bolder text-info">Option 4</label>
+                <input class="form-control" type="text" id="op4" name="op4">
+            </div>
+            <div class="form-group">
+                <label for="ans" class="form-label fw-bolder text-info">Answer</label>
+                <input class="form-control" type="text" id="ans" name="ans">
+            </div>
+
+            <div class="form-group mt-5 text-center">
+                <input type="reset" class="btn btn-sm btn-info" value="Clear" id="clrform">
+                <input type="button" class="btn btn-sm btn-success" value="Add" id="AddBtn" name="add">
+                
+                <input type="button" id="Closebtn" class="btn btn-sm btn-danger" value="Close">
+            </div>
+        </div>
+
+    </form>
+</div>
+
+        </div>
+    </div>
+</div>
