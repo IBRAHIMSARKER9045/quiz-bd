@@ -108,3 +108,86 @@ require "database.php";
             
         });
 function clearform(){
+
+}
+        $("#Closebtn").click(function(e) {
+            $("#formContainer").hide(200);
+            $("#AddBtn").show();
+            $("#Updatebtn").hide();
+            clearform();
+        });
+        //add
+        $("#AddBtn").click(function() {
+            var cid = $("#category").val();
+            var sid= $("#subcategory").val();
+            var tid = $("#topic").val();
+            var ques = $("#ques").val();
+            var op1 = $("#op1").val();
+            var op2 = $("#op2").val();
+            var op3 = $("#op3").val();
+            var op4 = $("#op4").val();
+            var ans = $("#ans").val();
+            alert(cid + ":" + sid + ":" + tid + ":"  + ques + ":" + op1+ ":" + op2+ ":" + op3+ ":" + op4+ ":" + ans);
+            $.ajax({
+                type: "post",
+                url: "addQuiz/add.php",
+                data: {  cid:cid,scid: sid, tid: tid, ques:ques,op1: op1,op2: op2,op3: op3,op4: op4,ans: ans,action:"add"},
+    
+                 success: function (response) {
+                 alert(response);
+                  clearform();
+                  
+                  }
+});
+        });
+
+        $("#category").change(function( cid,sid){
+            var cid = $(this).val();
+            $.ajax({
+                url: "ajax/subcat.php",
+                method: "POST",
+                data: {cid:cid},
+                success: function(data){
+                   
+                    $("#subcategory").html(data);
+                }
+            });
+        });
+
+        $("#subcategory").change(function(cid,sid){
+            var cid = $(this).val();
+            var sid = $(this).val();
+            $.ajax({
+                url: "ajax/top.php",
+                method: "POST",
+                data: {sid:sid,
+                        cid:cid
+                      },
+                success: function(data){
+                    $("#topic").html(data);
+                }
+            });
+        });
+
+        //add end
+        
+        function clearform() {
+            $("#quizid").val("");
+            $("#ques").val("");
+            $("#category").val("");
+            $("#subcategory").val("");
+            $("#topic").val("");
+            
+            $("#op1").val("");
+            $("#op2").val("");
+            $("#op3").val("");
+            $("#op4").val("");
+            $("#ans").val("");
+
+          
+        }
+    })
+
+</script>
+</body>
+</html>
