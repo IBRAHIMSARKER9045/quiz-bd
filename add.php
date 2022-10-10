@@ -93,3 +93,18 @@ require "database.php";
         </div>
     </div>
 </div>
+<?php require "inc/footer.php"; ?>
+<script>
+    
+    $(document).ready(function() {
+        $("#formContainer").hide();
+        $("#CreateBtn").click(function(e) {
+            // alert(5);
+            $("#formContainer").toggle();
+            clearform();
+            $("#form_category").show(200);
+            $("#AddBtn").show();
+            $("#Updatebtn").hide();
+            
+        });
+function clearform(){
