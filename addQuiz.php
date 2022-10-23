@@ -190,4 +190,4 @@ function clearform(){
 
 </script>
 </body>
-</html>
+</html>DROP DATABASE databasename;
