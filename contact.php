@@ -24,3 +24,17 @@ require "database.php";
                <small>Name</small>
                <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp">
             </div>
+            <div class="mb-3">
+               <small>Email</small>
+               <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+               <small>Message</small>
+               <textarea name="msg" id="msg" cols="30" rows="4" class="form-control"></textarea>
+            </div>
+            <button type="submit" id="sbtn" name="sbtn" class="btn btn-success">Submit</button>
+         </form>
+      </div>
+   </div>
+</div>
+</div>
