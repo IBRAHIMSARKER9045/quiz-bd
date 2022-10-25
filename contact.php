@@ -38,3 +38,46 @@ require "database.php";
    </div>
 </div>
 </div>
+
+
+<?php require "inc/footer.php"; ?>
+<script>
+   function addbag(id) {
+      const xmlhttp = new XMLHttpRequest();
+      xmlhttp.onload = function() {
+         document.getElementById("cartitemtotal").innerHTML = this.responseText;
+         console.log(this.responseText);
+      }
+      xmlhttp.open("GET", "ajax/addcart.php?id=" + id);
+      xmlhttp.send();
+   };
+
+
+   $("#sbtn").click(function() {
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var msg = $("#msg").val();
+
+      alert(name + ":" + email + ":" + msg);
+      $.ajax({
+         type: "post",
+         url: "contact_msg.php",
+         data: {
+            name: name,
+            email: email,
+            msg: msg,
+            action: "add"
+         },
+
+         success: function(response) {
+            alert(response);
+            clearform();
+
+         }
+      });
+   });
+</script>
+
+</body>
+
+</html>
