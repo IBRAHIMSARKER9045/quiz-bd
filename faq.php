@@ -28,3 +28,53 @@ require "database.php";
                <?php echo '<div class="accordion-header" id="faq">
           <button class="accordion-button text-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <h6>' . $row['message'] . '</h6>
+            </button>
+        </div>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body" id="reply">
+          ' . $row['reply'] . '
+          </div>' ?>
+            <?php } ?>
+         </div>
+      </div>
+
+
+
+   </div>
+</div>
+</div>
+
+
+
+
+
+
+
+<?php require "inc/footer.php"; ?>
+<script>
+   function addbag(id) {
+      const xmlhttp = new XMLHttpRequest();
+      xmlhttp.onload = function() {
+         document.getElementById("cartitemtotal").innerHTML = this.responseText;
+         console.log(this.responseText);
+      }
+      xmlhttp.open("GET", "ajax/addcart.php?id=" + id);
+      xmlhttp.send();
+   };
+
+
+   $("#sbtn").click(function() {
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var msg = $("#msg").val();
+
+      alert(name + ":" + email + ":" + msg);
+      $.ajax({
+         type: "post",
+         url: "contact_msg.php",
+         data: {
+            name: name,
+            email: email,
+            msg: msg,
+            action: "add"
+         },
