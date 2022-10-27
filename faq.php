@@ -78,3 +78,16 @@ require "database.php";
             msg: msg,
             action: "add"
          },
+
+         success: function(response) {
+            alert(response);
+            clearform();
+
+         }
+      });
+   });
+</script>
+
+</body>
+
+</html>
