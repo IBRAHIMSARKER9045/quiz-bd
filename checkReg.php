@@ -32,3 +32,26 @@ require "database.php"; ?>
 
 <?php require "inc/footer.php"; ?>
 <script>
+    function addbag(id) {
+      const xmlhttp = new XMLHttpRequest();
+      xmlhttp.onload = function() {
+         document.getElementById("cartitemtotal").innerHTML = this.responseText;
+         console.log(this.responseText);
+      }
+      xmlhttp.open("GET", "ajax/addcart.php?id=" + id);
+      xmlhttp.send();
+   };
+
+
+    function showhidetrx(){
+        var pmethod = document.getElementById('pmethod').value;
+        if(pmethod == 'bKash' || pmethod == 'nogod' || pmethod == 'upay'){
+            document.getElementById('trxdiv').style.display = 'block';
+        }
+        else{
+            document.getElementById('trxdiv').style.display = 'none';
+        }
+    }
+</script>
+</body>
+</html>
