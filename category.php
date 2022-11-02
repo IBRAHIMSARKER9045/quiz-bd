@@ -23,4 +23,14 @@ require "database.php";
           unset($_SESSION['message']);
         }
         if ($result->num_rows > 0) {
-            
+            echo '<div class="owl-carousel owl-theme">';
+          while ($row = $result->fetch_assoc()) {
+            echo '<a href="subcategory.php?cat=' . $row['id'] . '"><div class="item"><img src="assets/images/icons/' . $row['icon'] . '.png" title="' . $row['name'] . '" width="250" height="200"/><h4 class="text-center">' . $row['name'] . '</h4></div></a>';
+          }
+          echo '</div>';
+        }
+        ?>
+      </div>
+    </div>
+  </div>
+</div>
