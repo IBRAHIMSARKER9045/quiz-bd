@@ -34,3 +34,19 @@ require "database.php";
     </div>
   </div>
 </div>
+
+<?php require "inc/footer.php"; ?>
+<script>
+  function addbag(id) {
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function() {
+      document.getElementById("cartitemtotal").innerHTML = this.responseText;
+      console.log(this.responseText);
+    }
+    xmlhttp.open("GET", "ajax/addcart.php?id=" + id);
+    xmlhttp.send();
+  }
+</script>
+</body>
+
+</html>
