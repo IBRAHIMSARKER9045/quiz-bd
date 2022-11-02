@@ -12,3 +12,15 @@ require "database.php";
     </div>
     <div class="col-md-12 mt-5">
       <div class="card pt-5 pb-5 bg-light">
+      <?php
+        $cat = "SELECT * FROM `categories` WHERE 1";
+        $result = $conn->query($cat);
+        if (isset($_SESSION['message'])) {
+          echo '<div class="alert card alert-warning alert-dismissible fade show" role="alert">
+    <strong>Message:!</strong> ' . $_SESSION['message'] . '.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>';
+          unset($_SESSION['message']);
+        }
+        if ($result->num_rows > 0) {
+            
