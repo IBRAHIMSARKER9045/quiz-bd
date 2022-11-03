@@ -16,3 +16,21 @@ $passquery = "SELECT password FROM users WHERE id={$_SESSION['user_id']}";
 $result = $conn->query($passquery);
 if($result->num_rows > 0){
     while($row = $result->fetch_assoc()){
+        if($currentPassword == $row["password"] && $newPassword == $confirmPassword ) {
+            $updatePass="UPDATE users set password='" . $newPassword . "' WHERE id={$_SESSION['user_id']}";
+            
+            $message = "Password Changed Sucessfully";
+            } else{
+             $message = "Password is not correct";
+            }
+            
+            }
+            }
+            }
+            ?>
+            <!DOCTYPE html>
+            <html>
+            <head>
+            <title>Password Change</title>
+            
+            </head>
